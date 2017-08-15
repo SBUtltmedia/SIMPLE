@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" id="masterCss" type="text/css" href="resourcesLinked/css/simple.css">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="resourcesLinked/js/resize.js"></script>
+    <script src="resourcesLinked/js/simple.js"></script>
+</head>
+
+<body>
+    <div id="stage" class="screen">
+        <ul id="buttonBox">
+            <li id="indexCardButton">Start Index Card Mode</li>
+            <li id="typingGameButton">Start Typing Game</li>
+            <li id="selectorGameButton">Start Selector Game</li>
+        </ul>
+        <div id="quizDisplayBox">
+            <div id="quizDisplay"> </div>
+        </div>
+        <div id="messageDisplayBox">
+            <div id="message">
+                <div id="permMessage"></div>
+            </div>
+        </div>
+        <div id="guessBox">
+            <input id="userInput" type="text" /> </div>
+        <div id="healthDisplayBox"> <img id="heart1" src="resourcesLinked/images/system/Heart.svg"> <img id="heart2" src="resourcesLinked/images/system/Heart.svg"> <img id="heart3" src="resourcesLinked/images/system/Heart.svg"> </div>
+        <div class="board">
+            <ul id="headerName"> </ul>
+            <div id="leftnav">
+                <div id="hoverButtons">
+                    <ul id="layerName"> </ul>
+                </div>
+            </div>
+        </div>
+        <div id="rightnav">
+            <div id="background"> </div>
+            <div id="displayCorrect"> </div>
+            <div id="imagemap"> <img id="picture" src="resourcesLinked/images/system/1px.png" alt="someimage" usemap="#nav" /> </div>
+            <div id="nav" name="nav"></div>
+        </div>
+    </div>
+</body>
+
+</html>
