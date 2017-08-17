@@ -130,3 +130,15 @@ body {
   width: 100%;
   position: absolute;
 }
+
+#header a { text-decoration: none; color:#000; }
+#header a:visited { text-decoration: none; color:#000; }
+#header a:hover { text-decoration: none; color:#000; }
+#header a:focus { text-decoration: none; color:#000; }
+#header a:hover, .navBtn:active { text-decoration: none; color:#000; }
+
+#content a { text-decoration: none; color: #A9A9A9; }
+#content a:visited { text-decoration: none; color: #A9A9A9; }
+#content a:hover { text-decoration: none; color: #A9A9A9; }
+#content a:focus { text-decoration: none; color: #A9A9A9; }
+#content a:hover, .navBtn:active { text-decoration: none; color: #A9A9A9; }

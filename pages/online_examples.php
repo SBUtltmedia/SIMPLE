@@ -37,7 +37,7 @@ Click on the links below to view finished image maps:
    <a class="sharedProject" href="https://apps.tlt.stonybrook.edu/SIMPLE/uploads/moneal/Monocot_Root/">Monocot Root</a>
    <a class="sharedProject" href="https://apps.tlt.stonybrook.edu/SIMPLE/uploads/moneal/Monocot_Stem/">Monocot Stem</a>
  </div>
- 
+
  <div id="linksPreview">
    <a class="sharedProject" href="https://apps.tlt.stonybrook.edu/SIMPLE/uploads/moneal/Phylogenetic_Tree/">Phylogenetic Tree</a>
    <a class="sharedProject" href="https://apps.tlt.stonybrook.edu/SIMPLE/uploads/moneal/Eudicot_Stem/">Eudicot Stem</a>
