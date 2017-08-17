@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189.11 163.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #a9a9a9;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+
+    <filter id="f1" x="-30%" y="-30%" width="300%" height="300%">
+   <feOffset result="offOut" in="SourceGraphic" dx="10" dy="10" />
+   <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+   <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+   <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+ </filter>
+
+  </defs>
+  <title>triangle_up</title><polygon filter="url(#f1)" transform="scale(.5) translate(50,50)" class="cls-1"  points="94.56 9.99 12.39 152.18 94.56 112.99 176.72 152.18 94.56 9.99"/></svg>
